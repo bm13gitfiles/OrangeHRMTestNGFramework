@@ -27,14 +27,23 @@ This project demonstrates end-to-end testing of OrangeHRM modules with reusable 
 
 ## 📂 Project Structure
 OrangeHRMTestNGFramework/
+
 ├── src/main/java/demo/orangehrm/framework/   # Core framework classes
+
 ├── src/test/java/demo/orangehrm/framework/   # Test cases & step definitions
+
 ├── Config/                                   # Config.properties
+
 ├── TestData/                                 # Excel test data
+
 ├── Reports/                                  # ExtentReports output
+
 ├── Screenshots/                              # Captured screenshots
+
 ├── test-output/                              # TestNG default reports
+
 ├── pom.xml                                    # Maven dependencies
+
 └── testng.xml                                 # TestNG suite configuration
 
 ---
