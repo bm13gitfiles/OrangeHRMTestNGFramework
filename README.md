@@ -34,8 +34,8 @@ OrangeHRMTestNGFramework/
 ├── Reports/                                  # ExtentReports output
 ├── Screenshots/                              # Captured screenshots
 ├── test-output/                              # TestNG default reports
-├── pom.xml                                   # Maven dependencies
-└── testng.xml                                # TestNG suite configuration
+├── pom.xml                                    # Maven dependencies
+└── testng.xml                                 # TestNG suite configuration
 
 ---
 
