@@ -25,10 +25,7 @@ This project demonstrates end-to-end testing of OrangeHRM modules with reusable 
 
 ---
 
-
 ## 📂 Project Structure
-
-
 OrangeHRMTestNGFramework/
 ├── src/main/java/demo/orangehrm/framework/   # Core framework classes
 ├── src/test/java/demo/orangehrm/framework/   # Test cases & step definitions
@@ -37,12 +34,10 @@ OrangeHRMTestNGFramework/
 ├── Reports/                                  # ExtentReports output
 ├── Screenshots/                              # Captured screenshots
 ├── test-output/                              # TestNG default reports
-├── pom.xml                                    # Maven dependencies
-└── testng.xml                                 # TestNG suite configuration
+├── pom.xml                                   # Maven dependencies
+└── testng.xml                                # TestNG suite configuration
 
-
-
-
+---
 
 ## ⚙️ Setup & Execution
 
@@ -52,24 +47,35 @@ OrangeHRMTestNGFramework/
 - Install a browser driver (e.g., ChromeDriver) and ensure it’s on your PATH
 
 ### Clone the repository
-```bash
 git clone https://github.com/bm13gitfiles/OrangeHRMTestNGFramework.git
 cd OrangeHRMTestNGFramework
 
+### Run tests
+mvn clean test
 
+### Generate reports
+After execution, view reports in:
+- Reports/ExtentReport.html
+- test-output/emailable-report.html
 
-##Generate reports
-After execution, view reports in - Reports/ExtentReport.html
+---
 
-##Sample Screenshots
+## 📸 Sample Screenshots
 Screenshots are automatically captured during test execution and stored in the Screenshots/ folder.
 
+---
 
-Author
-Balu  
-ISTQB-certified Senior QA Analyst | 9+ years in Life Sciences & eCommerce QA
-Specialist in AEM, Agile QA, Automation, Accessibility, and AI-driven scenario generation
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
+---
 
+## 📜 License
+This project is licensed under the MIT License — feel free to use and adapt.
 
-## 📂 Project Structure
+---
+
+## 👤 Author
+**Balu**  
+ISTQB-certified Senior QA Analyst | 9+ years in Life Sciences & eCommerce QA  
+Specialist in AEM, Agile QA, Automation, Accessibility, and AI-driven scenario generation.
